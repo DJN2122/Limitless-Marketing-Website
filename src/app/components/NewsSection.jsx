@@ -5,19 +5,21 @@ const NewsSection = () => {
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [currentPage, setCurrentPage] = useState(0);
+  const [currentPage, setCurrentPage] = useState(""); // Use string for page cursor
   const [nextPage, setNextPage] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [tempQuery, setTempQuery] = useState("");
 
-  const fetchNews = async (page = 0, query = "") => {
+  const fetchNews = async (page = "", query = "") => {
     setLoading(true);
     try {
-      // Using your API key from the example
       const apiKey = "pub_791719f8ca6dbc02afa2df69f7402d9c13baf";
-      let url = `https://newsdata.io/api/1/latest?apikey=${apiKey}&language=en&q=query&size=9`;
+      let url = `https://newsdata.io/api/1/latest?apikey=${apiKey}&language=en&size=9`;
 
-      // Add search query if provided
+      if (page) {
+        url += `&page=${page}`;
+      }
+
       if (query) {
         url += `&q=${encodeURIComponent(query)}`;
       }
@@ -31,7 +33,7 @@ const NewsSection = () => {
 
       if (data.status === "success") {
         setNews(data.results || []);
-        setNextPage(data.nextPage);
+        setNextPage(data.nextPage || null);
       } else {
         throw new Error(data.results?.message || "Failed to fetch news");
       }
@@ -54,16 +56,13 @@ const NewsSection = () => {
   };
 
   const handlePrevPage = () => {
-    if (currentPage) {
-      // Go back to the first page if we can't determine the previous page
-      setCurrentPage(0);
-    }
+    setCurrentPage(""); // Reset to first page
   };
 
   const handleSearch = (e) => {
     e.preventDefault();
     setSearchQuery(tempQuery);
-    setCurrentPage(0); // Reset to first page on new search
+    setCurrentPage(""); // Reset to first page on search
   };
 
   const formatDate = (dateString) => {
@@ -124,8 +123,8 @@ const NewsSection = () => {
                         style={{ height: "200px", objectFit: "cover" }}
                         onError={(e) => {
                           e.target.onerror = null;
-                          e.target.src = "/api/placeholder/400/320";
-                        }}
+                          e.target.src = "https://picsum.photos/400/320";
+                        }}
                       />
                     ) : (
                       <div
@@ -145,7 +144,7 @@ const NewsSection = () => {
 
                       <div className="mt-auto">
                         <div className="d-flex justify-content-between text-muted small mb-2">
-                          <span>{article.source_name}</span>
+                          <span>{article.source_id}</span>
                           <span>{formatDate(article.pubDate)}</span>
                         </div>
 
@@ -180,9 +179,9 @@ const NewsSection = () => {
           <div className="d-flex justify-content-between mt-4">
             <button
               onClick={handlePrevPage}
-              disabled={currentPage === 0}
+              disabled={currentPage === ""}
               className="btn btn-primary"
-              style={{ opacity: currentPage === 0 ? 0.65 : 1 }}>
+              style={{ opacity: currentPage === "" ? 0.65 : 1 }}>
               Previous Page
             </button>
 
