@@ -72,7 +72,7 @@ const page = () => {
               </p>
 
               <div className="colored-link">
-                <Link href="#">Contact Us </Link>
+                <Link href="/contact">Contact Us </Link>
               </div>
             </div>
             <div className="col-lg-6 mt-3 mt-lg-0">
