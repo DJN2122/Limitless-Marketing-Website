@@ -42,7 +42,10 @@ const page = () => {
                 <li>
                   <div className="contact-card">
                     <div className="icon">
-                      <img src="/assets/icons/call.svg" alt="" />
+                      <img
+                        src="/assets/icons/call.svg"
+                        alt="Limitless Marketing"
+                      />
                     </div>
                     <div className="content">
                       <h5>Phone</h5>
@@ -54,7 +57,10 @@ const page = () => {
                 <li>
                   <div className="contact-card">
                     <div className="icon">
-                      <img src="/assets/icons/email.svg" alt="" />
+                      <img
+                        src="/assets/icons/email.svg"
+                        alt="Limitless Marketing"
+                      />
                     </div>
                     <div className="content">
                       <h5>Email</h5>
@@ -68,13 +74,16 @@ const page = () => {
                 <li className="w-100">
                   <div className="contact-card third-card">
                     <div className="icon">
-                      <img src="/assets/icons/location-dark.svg" alt="" />
+                      <img
+                        src="/assets/icons/location-dark.svg"
+                        alt="Limitless Marketing"
+                      />
                     </div>
                     <div className="content">
                       <h5>Location</h5>
                       <p>
                         Unit 6, Block B Workspace centre Mayoralty Street
-                        Drogheda Co.Louth A92V044
+                        Ireland Co.Louth A92V044
                       </p>
                     </div>
                   </div>

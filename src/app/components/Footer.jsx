@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import ScrollToTopp from "./ScrollToTopp";
 
 const Footer = () => {
   return (
@@ -9,12 +10,15 @@ const Footer = () => {
           <div className=" col-lg-3 col-md-6 mb-2">
             <div className="footer-logo">
               <Link href="/">
-                <img src="/assets/img/logo-white.png" alt="" />
+                <img
+                  src="/assets/img/logo-white.png"
+                  alt="Limitless Marketing"
+                />
               </Link>
               <p className="small color-white mt-4">
                 At Limitless Marketing, we specialize in delivering powerful
                 sales and marketing solutions that drive real results. Based in
-                Drogheda, we work with businesses and charities to expand their
+                Ireland, we work with businesses and charities to expand their
                 reach, build brand awareness, and create meaningful customer
                 connections.
               </p>
@@ -54,6 +58,12 @@ const Footer = () => {
               <li>
                 <Link href="/contact">Contact Us</Link>
               </li>
+              <li>
+                <Link href="/team">Team</Link>
+              </li>
+              <li>
+                <Link href="/news">News</Link>
+              </li>
 
               <li>
                 <Link href="/privacy-policy">Privacy Policy</Link>
@@ -66,8 +76,8 @@ const Footer = () => {
               Contact Info
             </h4>
             <p className="color-white">
-              Unit 6, Block B Workspace centre Mayoralty Street Drogheda
-              Co.Louth A92V044
+              Unit 6, Block B Workspace centre Mayoralty Street Ireland Co.Louth
+              A92V044
             </p>
 
             <a
@@ -78,9 +88,33 @@ const Footer = () => {
             <a href="tell:(041) 983 6503" className="footer-link">
               (041) 983 6503
             </a>
+
+            <div className="social">
+              <a
+                href="https://www.facebook.com/LimitlessMarketingLTDBelfast"
+                target="_blank">
+                <div className="icon">
+                  <img
+                    src="/assets/icons/facebook.svg"
+                    alt="Limitless Marketing"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://www.instagram.com/limitless_marketing_ltd/"
+                target="_blank">
+                <div className="icon">
+                  <img
+                    src="/assets/icons/instagram.svg"
+                    alt="Limitless Marketing"
+                  />
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
+      <ScrollToTopp />
     </section>
   );
 };

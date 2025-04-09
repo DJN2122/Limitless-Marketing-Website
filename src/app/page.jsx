@@ -10,6 +10,7 @@ const page = () => {
             autoPlay
             loop
             muted
+            playsInline
             className="video"
             src="/assets/video/hero.mp4"
             type="video/mp4"></video>
@@ -78,7 +79,7 @@ const page = () => {
               <img
                 src="/assets/img/growth.jpg"
                 className="img-fluid border-radius"
-                alt=""
+                alt="Limitless Marketing"
               />
             </div>
           </div>
@@ -91,7 +92,10 @@ const page = () => {
             <li>
               <div className="feature-card">
                 <div className="icon">
-                  <img src="/assets/icons/aquisition.svg" alt="" />
+                  <img
+                    src="/assets/icons/aquisition.svg"
+                    alt="Limitless Marketing"
+                  />
                 </div>
                 <h4>Aquisition</h4>
                 <p>
@@ -104,7 +108,10 @@ const page = () => {
             <li>
               <div className="feature-card">
                 <div className="icon">
-                  <img src="/assets/icons/awareness.svg" alt="" />
+                  <img
+                    src="/assets/icons/awareness.svg"
+                    alt="Limitless Marketing"
+                  />
                 </div>
                 <h4>Awareness</h4>
                 <p>
@@ -117,7 +124,10 @@ const page = () => {
             <li>
               <div className="feature-card">
                 <div className="icon">
-                  <img src="/assets/icons/loyal.svg" alt="" />
+                  <img
+                    src="/assets/icons/loyal.svg"
+                    alt="Limitless Marketing"
+                  />
                 </div>
                 <h4>Brand Loyalty</h4>
                 <p>
@@ -131,7 +141,10 @@ const page = () => {
             <li>
               <div className="feature-card">
                 <div className="icon">
-                  <img src="/assets/icons/management.svg" alt="" />
+                  <img
+                    src="/assets/icons/management.svg"
+                    alt="Limitless Marketing"
+                  />
                 </div>
                 <h4>Management</h4>
                 <p>
@@ -152,7 +165,7 @@ const page = () => {
               <img
                 src="/assets/img/approach.jpg"
                 className="img-fluid border-radius"
-                alt=""
+                alt="Limitless Marketing"
               />
             </div>
 
