@@ -1024,13 +1024,17 @@ header {
       .team-image {
         display: flex;
         align-items: center;
+        
         .img-container {
           width: 120px;
           margin-right: 1rem;
           height: 120px;
+          background-color: red;
           border-radius: 0.6rem;
           overflow: hidden;
           img {
+            min-width: 120px;
+            min-height: 120px;
             object-fit: cover;
           }
         }

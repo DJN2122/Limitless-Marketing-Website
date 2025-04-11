@@ -89,6 +89,94 @@ const page = () => {
                 </div>
               </div>
             </li>
+
+            <li>
+              <div className="team-card">
+                <div className="team-image">
+                  <div className="img-container">
+                    <img
+                      src="/assets/img/andrew.jpg"
+                      className="img-fluid"
+                      alt="Limitless Marketing"
+                    />
+                  </div>
+                  <div className="name-container">
+                    <h4>Andrew O’Brien</h4>
+                    <h5>Assistant Manager</h5>
+                  </div>
+                </div>
+                <div className="team-content">
+                  <p>
+                    Andrew O'Brien is a driven and ambitious Assistant Manager
+                    at Limitless Marketing Limited. With a unique blend of public
+                    service experience, having served in the Fire Brigade and Coast Guard,
+                    Andrew brings a distinct perspective to his leadership role.
+                  </p>
+                  <p>
+                    His natural talent for leadership, forged in high-pressure environments, 
+                    inspires and motivates the team to achieve outstanding results, 
+                    while fostering a culture of creativity, innovation, and teamwork.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="team-card">
+                <div className="team-image">
+                  <div className="img-container">
+                    <img
+                      src="/assets/img/jason.jpg"
+                      className="img-fluid"
+                      alt="Limitless Marketing"
+                    />
+                  </div>
+                  <div className="name-container">
+                    <h4>Jason Plunkett</h4>
+                    <h5>Team Leader</h5>
+                  </div>
+                </div>
+                <div className="team-content">
+                  <p>
+                  Jason Plunkett is a highly valued member of the Limitless Marketing Limited team.
+                  With a background in sales and marketing, Jason's skills and experience have been
+                  a significant asset to the company.
+                  </p>
+                  <p>
+                  His dedication, work ethic, and commitment to excellence have earned him a reputation as a trusted and reliable team player.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="team-card">
+                <div className="team-image">
+                  <div className="img-container">
+                    <img
+                      src="/assets/img/pavitra.jpg"
+                      className="img-fluid"
+                      alt="Limitless Marketing"
+                    />
+                  </div>
+                  <div className="name-container">
+                    <h4>Pavitra Raja</h4>
+                    <h5>Team Leader</h5>
+                  </div>
+                </div>
+                <div className="team-content">
+                  <p>
+                  Pavitra Raja is a marketing expert and Team Leader at Limitless Marketing Limited.
+                  Armed with a degree in Marketing and a keen understanding of industry trends,
+                  Pavitra develops and executes effective marketing strategies that drive business success.
+                  </p>
+                  <p>
+                  Her expertise and leadership skills make her an invaluable asset to the team.
+                  </p>
+                </div>
+              </div>
+            </li>
+
           </ul>
         </div>
       </section>
