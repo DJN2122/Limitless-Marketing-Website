@@ -32,3 +32,15 @@ This project is a **Front-End Web Development Assessment** for my course at **UC
 
 This is a **live website**, available at: [https://www.limitless-marketing.ie](https://www.limitless-marketing.ie)  
 It is currently being **hosted on Vercel**.
+
+As per the assessment requirements, this project demonstrates:
+- Clean and semantic HTML and CSS structure
+- Responsive design principles for various screen sizes
+- JavaScript interactivity on multiple components
+- Usage of third-party tools and frameworks (e.g. Next.js, Vercel)
+- REST API integration using [`newsdata.io`](https://newsdata.io/) to fetch and display live news content
+- GitHub for version control and agile development tracking
+
+The API integration showcases the ability to retrieve external content dynamically using modern JavaScript methods, fulfilling the requirement for incorporating data from a third-party REST API using AJAX.
+
+All project documentation including accessibility and performance reports is located in the `/docs` folder, and the site was developed with performance, responsiveness, and real-world deployment in mind.

@@ -76,8 +76,8 @@ const Footer = () => {
               Contact Info
             </h4>
             <p className="color-white">
-              Unit 6, Block B Workspace centre Mayoralty Street Ireland Co.Louth
-              A92V044
+              Unit 6, Block B, Workspace centre, Mayoralty Street, Drogheda, Co. Louth, 
+              A92V044, Ireland
             </p>
 
             <a
