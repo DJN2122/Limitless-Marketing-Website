@@ -95,37 +95,6 @@ const page = () => {
                 <div className="team-image">
                   <div className="img-container">
                     <img
-                      src="/assets/img/andrew.jpg"
-                      className="img-fluid"
-                      alt="Limitless Marketing"
-                    />
-                  </div>
-                  <div className="name-container">
-                    <h4>Andrew O’Brien</h4>
-                    <h5>Assistant Manager</h5>
-                  </div>
-                </div>
-                <div className="team-content">
-                  <p>
-                    Andrew O'Brien is a driven and ambitious Assistant Manager
-                    at Limitless Marketing Limited. With a unique blend of public
-                    service experience, having served in the Fire Brigade and Coast Guard,
-                    Andrew brings a distinct perspective to his leadership role.
-                  </p>
-                  <p>
-                    His natural talent for leadership, forged in high-pressure environments, 
-                    inspires and motivates the team to achieve outstanding results, 
-                    while fostering a culture of creativity, innovation, and teamwork.
-                  </p>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div className="team-card">
-                <div className="team-image">
-                  <div className="img-container">
-                    <img
                       src="/assets/img/jason.jpg"
                       className="img-fluid"
                       alt="Limitless Marketing"
