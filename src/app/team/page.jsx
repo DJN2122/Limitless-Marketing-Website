@@ -58,7 +58,7 @@ const page = () => {
                 </div>
               </div>
             </li>
-
+            {/*
             <li>
               <div className="team-card">
                 <div className="team-image">
@@ -145,7 +145,7 @@ const page = () => {
                 </div>
               </div>
             </li>
-
+            */}
           </ul>
         </div>
       </section>
