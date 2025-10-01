@@ -58,38 +58,32 @@ const page = () => {
                 </div>
               </div>
             </li>
-            {/*
             <li>
               <div className="team-card">
                 <div className="team-image">
                   <div className="img-container">
                     <img
-                      src="/assets/img/leah.png"
+                      src="/assets/img/kelly.jpg"
                       className="img-fluid"
                       alt="Limitless Marketing"
                     />
                   </div>
                   <div className="name-container">
-                    <h4>Leah</h4>
+                    <h4>Kelly Molloy</h4>
                     <h5>Operations Manager</h5>
                   </div>
                 </div>
                 <div className="team-content">
                   <p>
-                    I’ve always had a passion for working with people,
-                    regardless of the sector. Since having my daughter, my focus
-                    has shifted—all I want to do is help others, whether
-                    mentally, emotionally, financially, or in any way I can.
+                    The Chief Operating Officer of Limitless Marketing and a qualified law graduate. She manages the company’s day-to-day operations, ensuring that all processes run smoothly, efficiently, and in full compliance with legal and regulatory standards.
                   </p>
                   <p>
-                    Becoming an operations manager has always been a
-                    dream—helping people find their passion, achieve their
-                    goals, and succeed in life.
+                    Kelly brings a unique combination of legal expertise and operational insight, allowing her to identify opportunities for improvement, streamline workflows, and solve complex challenges.
                   </p>
                 </div>
               </div>
             </li>
-
+            {/*
             <li>
               <div className="team-card">
                 <div className="team-image">
