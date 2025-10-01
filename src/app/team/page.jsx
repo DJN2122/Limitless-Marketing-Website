@@ -70,7 +70,7 @@ const page = () => {
                   </div>
                   <div className="name-container">
                     <h4>Kelly Molloy</h4>
-                    <h5>Operations Manager</h5>
+                    <h5>Chief Operating Officer</h5>
                   </div>
                 </div>
                 <div className="team-content">
