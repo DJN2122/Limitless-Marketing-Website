@@ -63,22 +63,22 @@ const page = () => {
                 <div className="team-image">
                   <div className="img-container">
                     <img
-                      src="/assets/img/kelly.jpg"
+                      src="/assets/img/andrew.jpg"
                       className="img-fluid"
                       alt="Limitless Marketing"
                     />
                   </div>
                   <div className="name-container">
-                    <h4>Kelly Molloy</h4>
-                    <h5>Chief Operating Officer</h5>
+                    <h4>Andrew O’brien</h4>
+                    <h5>Sales Manager</h5>
                   </div>
                 </div>
                 <div className="team-content">
                   <p>
-                    The Chief Operating Officer of Limitless Marketing and a qualified law graduate. She manages the company’s day-to-day operations, ensuring that all processes run smoothly, efficiently, and in full compliance with legal and regulatory standards.
+                    Andrew O’brien is a high-impact Sales Manager dedicated to driving sustainable growth and building elite teams. With a focus on strategy and a knack for closing complex deals.
                   </p>
                   <p>
-                    Kelly brings a unique combination of legal expertise and operational insight, allowing her to identify opportunities for improvement, streamline workflows, and solve complex challenges.
+                    Andrew transforms ambitious targets into measurable success for both our company and our clients.
                   </p>
                 </div>
               </div>
