@@ -83,13 +83,23 @@ const Footer = () => {
             <a
               href="mailto:admin@limitless-marketing.ie"
               className="footer-link">
-              Admin@limitless-marketing.ie
+              finn@limitless-marketing.ie
             </a>
             <a href="tell:(041) 983 6503" className="footer-link">
               (041) 983 6503
             </a>
 
             <div className="social">
+              <a
+                href="https://www.linkedin.com/company/limitless-marketing-ireland/posts/?feedView=all"
+                target="_blank">
+                <div className="icon">
+                  <img
+                    src="/assets/icons/linkedin.svg"
+                    alt="Limitless Marketing"
+                  />
+                </div>
+              </a>
               <a
                 href="https://www.facebook.com/LimitlessMarketingLTDBelfast"
                 target="_blank">
