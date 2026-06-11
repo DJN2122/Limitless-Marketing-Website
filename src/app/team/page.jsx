@@ -83,6 +83,31 @@ const page = () => {
                 </div>
               </div>
             </li>
+            <li>
+              <div className="team-card">
+                <div className="team-image">
+                  <div className="img-container">
+                    <img
+                      src="/assets/img/tukai.jpeg"
+                      className="img-fluid"
+                      alt="Limitless Marketing"
+                    />
+                  </div>
+                  <div className="name-container">
+                    <h4>Tukai Saleh</h4>
+                    <h5>Business Development Manager</h5>
+                  </div>
+                </div>
+                <div className="team-content">
+                  <p>
+                    With a proven track record of driving growth and forging strategic partnerships, Tukai specializes in identifying high-value opportunities and transforming them into long-term partnerships. 
+                  </p>
+                  <p>
+                    As the Business Development Manager at Limitless Marketing he focuses on aligning innovative business strategies with to deliver ethical fundraising standards and impactful territory management strategies.
+                  </p>
+                </div>
+              </div>
+            </li>
             {/*
             <li>
               <div className="team-card">
