@@ -83,7 +83,7 @@ const Footer = () => {
             <a
               href="mailto:admin@limitless-marketing.ie"
               className="footer-link">
-              finn@limitless-marketing.ie
+              Tukai@limitless-marketing.ie
             </a>
             <a href="tell:(041) 983 6503" className="footer-link">
               (041) 983 6503

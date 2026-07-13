@@ -108,63 +108,31 @@ const page = () => {
                 </div>
               </div>
             </li>
-            {/*
             <li>
               <div className="team-card">
                 <div className="team-image">
                   <div className="img-container">
                     <img
-                      src="/assets/img/jason.jpg"
+                      src="/assets/img/FINN.jpg"
                       className="img-fluid"
                       alt="Limitless Marketing"
                     />
                   </div>
                   <div className="name-container">
-                    <h4>Jason Plunkett</h4>
-                    <h5>Team Leader</h5>
+                    <h4>Finn O’Heochaidh</h4>
+                    <h5>Operations Coordinator</h5>
                   </div>
                 </div>
                 <div className="team-content">
                   <p>
-                  Jason Plunkett is a highly valued member of the Limitless Marketing Limited team.
-                  With a background in sales and marketing, Jason's skills and experience have been
-                  a significant asset to the company.
+                  Finn is the Operations Coordinator at Limitless Marketing, ensuring our door-to-door fundraising campaigns run smoothly and efficiently. He supports our fundraising teams, coordinates daily operations, and helps create a positive, high-performing environment that enables our charity partners to make a lasting impact.
                   </p>
                   <p>
-                  His dedication, work ethic, and commitment to excellence have earned him a reputation as a trusted and reliable team player.
+                  With a strong focus on organization and teamwork, Finn is committed to helping both our people and our charity partners succeed. His dedication behind the scenes ensures our campaigns are delivered with professionalism, consistency, and purpose.
                   </p>
                 </div>
               </div>
             </li>
-
-            <li>
-              <div className="team-card">
-                <div className="team-image">
-                  <div className="img-container">
-                    <img
-                      src="/assets/img/pavitra.jpg"
-                      className="img-fluid"
-                      alt="Limitless Marketing"
-                    />
-                  </div>
-                  <div className="name-container">
-                    <h4>Pavitra Raja</h4>
-                    <h5>Team Leader</h5>
-                  </div>
-                </div>
-                <div className="team-content">
-                  <p>
-                  Pavitra Raja is a marketing expert and Team Leader at Limitless Marketing Limited.
-                  Armed with a degree in Marketing and a keen understanding of industry trends,
-                  Pavitra develops and executes effective marketing strategies that drive business success.
-                  </p>
-                  <p>
-                  Her expertise and leadership skills make her an invaluable asset to the team.
-                  </p>
-                </div>
-              </div>
-            </li>
-            */}
           </ul>
         </div>
       </section>
