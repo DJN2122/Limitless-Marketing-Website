@@ -113,7 +113,7 @@ const page = () => {
                 <div className="team-image">
                   <div className="img-container">
                     <img
-                      src="/assets/img/FINN.jpg"
+                      src="/assets/img/FINN.jpeg"
                       className="img-fluid"
                       alt="Limitless Marketing"
                     />
